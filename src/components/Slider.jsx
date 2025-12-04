@@ -56,8 +56,8 @@ function Slider() {
                     <div
                         onClick={() => clickerFunction("Salad")}
                         className={location.pathname === "/" ?
-                            'px-20 w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
-                            'px-20 w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
                     >
                         <h1 className=' text-l font-medium text-center'>Salads and Soups</h1>
                     </div>
@@ -65,8 +65,8 @@ function Slider() {
                     <div
                         onClick={() => clickerFunction("Barnyard")}
                         className={location.pathname === "/barnyard" ?
-                            'px-20 w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
-                            'px-20 w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
                     >
                         <h1 className=' text-l font-medium text-center'>From the Barnyard</h1>
                     </div>
@@ -74,8 +74,8 @@ function Slider() {
                     <div
                         onClick={() => clickerFunction("HenHouse")}
                         className={location.pathname === "/hen-house" ?
-                            'px-20 w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
-                            'px-20 w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
                     >
                         <h1 className=' text-l font-medium text-center'>From the Hen House</h1>
                     </div>
@@ -83,8 +83,8 @@ function Slider() {
                     <div
                         onClick={() => clickerFunction("Sea")}
                         className={location.pathname === "/sea-food" ?
-                            'px-20 w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
-                            'px-20 w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
                     >
                         <h1 className=' text-l font-medium text-center'>Fresh From The Sea</h1>
                     </div>
@@ -92,8 +92,8 @@ function Slider() {
                     <div
                         onClick={() => clickerFunction("Biriyani")}
                         className={location.pathname === "/biriyani" ?
-                            'px-20 w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
-                            'px-20 w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
                     >
                         <h1 className=' text-l font-medium text-center'>Biriyani</h1>
                     </div>
@@ -101,8 +101,8 @@ function Slider() {
                     <div
                         onClick={() => clickerFunction("FastFood")}
                         className={location.pathname === "/fast-food" ?
-                            'px-20 w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
-                            'px-20 w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-red-500 text-red-500 py-3 cursor-pointer' :
+                            'md:px-20 w-50 md:w-100 border-b-2 border-b-slate-500 text-slate-500 py-3 cursor-pointer'}
                     >
                         <h1 className=' text-l font-medium text-center'>Fast Food</h1>
                     </div>
