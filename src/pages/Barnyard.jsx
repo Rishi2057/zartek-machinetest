@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import Header from '../components/Header'
-import Slider from '../components/Slider'
 import veg from '../../public/veglogo.jpg'
 import nonveg from '../../public/nonveglogo.jpg'
 import { useCart } from '../cartContext/CartContext'
