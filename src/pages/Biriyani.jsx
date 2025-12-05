@@ -15,7 +15,7 @@ const { count, increment, decrement } = useCart();
        
             <div>
                 {biriyani.map((item, index) => (
-                    <div key={index} className='grid grid-cols-[4fr_2fr_1fr] px-5 py-2 border-b-2'>
+                    <div key={index} className='grid grid-cols-[4fr_2fr_1fr] px-5 py-2 border-b-2 border-b-slate-300'>
                         <div className='grid grid-cols-[1fr_8fr] md:grid-cols-[.4fr_8fr] gap-5 md:gap-2'>
                             <div className='pt-2'>{item.dish_Type == 2 ? <img className='w-5' src={veg} alt="" /> :
                                 <img className='w-5' src={nonveg} alt="" />}</div>
