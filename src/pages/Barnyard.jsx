@@ -5,15 +5,14 @@ import veg from '../../public/veglogo.jpg'
 import nonveg from '../../public/nonveglogo.jpg'
 import { useCart } from '../cartContext/CartContext'
 
-function Barnyard({ data, baryardDishes }) {
+function Barnyard({baryardDishes }) {
 
 const { count, increment, decrement } = useCart();
 
 
     return (
         <>
-            <Header data={data} count={count} />
-            <Slider />
+           
             <div>
                 {baryardDishes.map((item, index) => (
                     <div key={index} className='grid grid-cols-[4fr_2fr_1fr] px-5 py-3 border-b-2'>

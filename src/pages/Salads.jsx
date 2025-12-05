@@ -7,15 +7,14 @@ import { useCart } from "../cartContext/CartContext";
 
 
 
-function Salads({ data, soupDishes }) {
+function Salads({ soupDishes }) {
 
 const { count, increment, decrement } = useCart();
 
 
     return (
         <>
-            <Header data={data} count={count} />
-            <Slider />
+            
             <div>
                 {soupDishes.map((item, index) => (
                     <div key={index} className='grid grid-cols-[4fr_2fr_1fr] px-5 py-2 border-b-2 border-b-slate-300'>

@@ -5,15 +5,14 @@ import veg from '../../public/veglogo.jpg'
 import nonveg from '../../public/nonveglogo.jpg'
 import { useCart } from '../cartContext/CartContext'
 
-function Biriyani({ data, biriyani }) {
+function Biriyani({biriyani }) {
 
 const { count, increment, decrement } = useCart();
 
     return (
 
         <>
-            <Header data={data} count={count} />
-            <Slider />
+       
             <div>
                 {biriyani.map((item, index) => (
                     <div key={index} className='grid grid-cols-[4fr_2fr_1fr] px-5 py-2 border-b-2'>
